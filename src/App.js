@@ -11,12 +11,12 @@ function App() {
   return (
     <Layout.Content style={{ padding: 20 }}>
       <Router>
-        <Link to="/">Perfil do treinador</Link> | <Link to="/pokemonlists/1">Lista de Pokemons</Link>
+        <Link to="/">Perfil do treinador</Link> | <Link to="/pokemonlists/">Lista de Pokemons</Link>
         <Switch>
           <Route exact path="/">
             <PokemonList />
           </Route>
-          <Route exact path="/pokemonlists/:id">
+          <Route exact path="/pokemonlists/">
             <Pokemons />
           </Route>
         </Switch>

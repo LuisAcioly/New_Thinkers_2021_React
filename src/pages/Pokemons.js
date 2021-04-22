@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { FaRegCheckSquare, FaTrashAlt, FaRegSquare } from "react-icons/fa";
-import { useParams } from "react-router-dom";
 
 const Pokemons = () => {
 
